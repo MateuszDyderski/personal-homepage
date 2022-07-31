@@ -1,0 +1,100 @@
+html{
+    font-family: 'Architects Daughter', cursive;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+	box-sizing: border-box;
+
+}
+*, ::after, ::before{
+	box-sizing: inherit;
+}
+@media (max-width: 767px) {
+	.navbar{
+	width:100%;
+	}
+}
+.caption{
+    caption-side:top;
+    margin-top:20px;
+}
+.body{
+    background-color:rgb(231, 231, 231);
+    text-align: center;
+}
+.hr{
+    border-top:1px solid rgb(0, 0, 0, 0.164);
+}
+.subHeader{
+    color:hsla(10, 10%, 0%, 0.84);
+    margin-top: 0;
+    font-weight: normal;
+    text-align: center;
+    text-decoration-color: aliceblue;
+    
+    
+
+}
+
+p{
+    display:block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+}
+.header--name{
+    box-shadow: 3px 3px 6px 9px rgb(190, 183, 183);
+}
+#blok {
+    position:relative;
+    width:auto;
+    height:1.8em;
+    line-height:0.9em;
+    margin:0 auto;
+    border:3px solid hsl(0, 0%, 99%);
+    font-size:0.8em;
+    background-color:hsl(0, 0%, 93%);
+    overflow:hidden;
+}
+#blok > p {
+    position:absolute;
+    margin:0;
+    white-space:nowrap;
+    animation:przesun 30s linear infinite;
+    -webkit-animation:przesun 30s linear infinite; /* dla Google Chrome, Safari, Opera 15+ */
+}
+#blok > p:hover {
+    animation-play-state:paused;
+    -webkit-animation-play-state:paused;
+}
+ @keyframes przesun
+{
+    0% { transform:translateX(0); padding-left:110%; }
+    100% { transform:translateX(-100%); padding-left:110%; }
+}
+.social-img{
+    width:38px;
+    height:38px;
+    padding:4px;
+}
+.socialmedia-nav{
+    display:flex;
+    justify-content:center;
+    background-color: hsl(0, 0%, 93%);
+}
+.hpc{
+    color:green;
+    font-size:large;
+}
+.info__page{
+    text-align: center;
+    margin-top:2%;
+    color:#222;
+    font-size:large;
+}
+@media screen and (max-width: 767px) { 
+    .info__page{
+        text-align: center;
+        margin-top:7%;
+        color:#222
+        } 
+    
+}

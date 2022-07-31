@@ -1,0 +1,17 @@
+.footer{
+    padding:10px;
+    background-color:hsl(0, 0%, 93%) ;
+    font-size:x-small;
+    text-align: center;
+    color: rgb(41, 37, 37);
+}
+.container-footer{
+    clear: both;
+    position:fixed;
+    bottom: 0;
+    min-width: 100%
+}
+.hr--footer{
+    margin-bottom: 50px;
+    padding:12px 0;
+}

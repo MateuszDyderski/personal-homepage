@@ -1,0 +1,16 @@
+.paragraph-kontakt{
+    background: rgba(0, 0, 0, 0.164);
+    text-align: center;
+    margin:center;
+    transition: background 1s, transform 2s;
+
+}
+.paragraph-kontakt:hover{
+    transform: scale(1.5);  
+    transform: rotate(90deg);  
+    transform: translateX(50px); 
+}
+.paragraph{
+    line-height:24px;
+    text-align: center;
+}
