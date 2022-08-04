@@ -17,12 +17,12 @@
 	<link rel="stylesheet" href="css/paragraph.css">
   	<link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/footer.css">
- 	<link rel="stylesheet" href="css/flex.css">
-	 <link rel="stylesheet" href="css/slider.css">
+ 	<link rel="stylesheet" href="css/contaierGrid.css">
+	<link rel="stylesheet" href="css/slider.css">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&amp;subset=latin-ext" rel="stylesheet">
 
 </head>
-<body>
+<body class="body">
 	
 	  <header>
 	
@@ -36,30 +36,22 @@
 		</button>
 			
 		<div class="collapse navbar-collapse" id="mainmenu">
+			
 		<ul class="navbar-nav mr-auto">
 			<li class="nav-item">
 				<a class="nav-link" href="#"> Moja historia </a>
 			</li>
-						
-		<li class="nav-item dropdown">
-							<a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" role="button" aria-expanded="false" id="submenu" aria-haspopup="true"> Informacje ogólne </a>
-		
-							
-		<div class="dropdown-menu" aria-labelledby="submenu">
-							
-							<a class="dropdown-item" href="#"> Certyfikaty </a>
-								
-		<div class="dropdown-divider"></div>
-
-							<a class="dropdown-item" href="#"> Szkoła </a>
-		<div class="dropdown-divider"></div>
-							<a class="dropdown-item" href="#"> Hobby i zainteresowania </a>
-
-							
-		</div>
+		<li class="nav-item">
+							<a class="nav-link" href="#"> Certyfikaty  </a>
 		</li>
 		<li class="nav-item">
-							<a class="nav-link" href="#"> Zdjęcia piesków  </a>
+			<a class="nav-link" href="#"> Hobby </a>
+		</li>
+		<li class="nav-item">
+		<a class="nav-link" href="#"> Github </a>
+		</li>
+		<li class="nav-item">
+		<a class="nav-link" href="#"> Zdjęcia piesków  </a>
 		</li>
 		<li class="nav-item">
 							<a class="nav-link disabled" href="#"> Aktualna praca </a>
@@ -73,13 +65,21 @@
 		</header>
 	
 	<main class="main">
-    <div class="flex">
-						<img class="image__flex" width="150" height="150" src="image/avatar.png" alt="avatar - Mateusz Dyderski">
-						<p class="flex__item"><b>Cześć!</b> Nazywam się <b>Mateusz</b>.<br> Aktualnie znajdujesz się na moim <b>Homepage</b>.</p>
+
+
+		<div class="containerGrid">
+    <div class="containerItemA">
+						<img class="imgContainer" width="150" height="150" src="image/avatar.png" alt="avatar - Mateusz Dyderski">
 	</div>
-	<div class="info__page">
-		<p>Nie pozostało mi nic innego, jak życzyć Ci miłego zwiedzania mojego małego zakątka! A tak na rozgrzewkę łap porcję dosyć ciekawych fotek!📸</p>
+	<div class="containerItemB">
+		<p ><b>Cześć!</b> Nazywam się <b>Mateusz</b>.<br> Aktualnie znajdujesz się na moim <b>Homepage</b>.</p>
 	</div>
+	</div>
+	<hr class="hr">
+	<div class="info__image--grid">
+		<p>Nie pozostało mi nic innego, jak życzyć Ci miłego zwiedzania mojego małego zakątka!<br> A tak na rozgrzewkę łap porcję dosyć ciekawych fotek!📸</p>
+	</div>
+
 
 	<!---     uuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuu                -->
 	<div class="slider-container">
@@ -126,6 +126,9 @@
 			<a class="slider__navlink" href="#slides__2"></a>
 			<a class="slider__navlink" href="#slides__3"></a>
 			<a class="slider__navlink" href="#slides__4"></a>
+			<a class="slider__navlink" href="#slides__5"></a>
+			<a class="slider__navlink" href="#slides__6"></a>
+			<a class="slider__navlink" href="#slides__7"></a>
 		  </div>
 		</div>
 	  </div>

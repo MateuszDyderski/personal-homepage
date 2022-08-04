@@ -1,0 +1,108 @@
+/*-------------------TOP AVATAR AND WELCOME TEXT--------------*/
+.containerGrid{
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    height:280px;
+    margin:20px;
+    gap: 1px;
+    padding:20px;
+    grid-template-areas: 
+    "mn mn"
+    "mn .."
+    ;
+}
+.containerItemA{
+    padding:20px;
+    display: grid;
+    max-width: 100%;
+    justify-items: end;
+    align-items: center;
+}
+.containerItemB{
+    padding:20px;
+    margin-top:80px;
+    display: grid;
+    justify-items: start;
+    text-shadow: 0px 0px 1px;
+}
+.imgContainer{
+    background: linear-gradient(
+        149deg,
+        rgba(245, 185, 55, 0.568) 0%,
+        rgba(3, 206, 233, 0.432) 100%
+      );
+    display: grid;
+    justify-content: center;
+    margin-top:10px;
+    border-radius: 50%;
+    box-shadow: 2px 4px 15px 10px rgba(11, 238, 181, 0.178);
+}
+@media (max-width: 767px) { 
+    .imgContainer{
+        max-width:100px;
+        max-height:100px;
+        } 
+        .containerItemA{
+            justify-items: center;
+            padding:0px;
+        }
+        .containerItemB{
+            max-height: 200px;
+            padding:0px;
+            margin-top:20px;
+            align-self: start;
+            justify-items: center;
+            text-align: center;
+            
+        }
+        .containerGrid{
+        grid-template-columns: repeat(1,auto);
+        margin:0px;
+        height:auto;
+        }
+    
+}
+/*-------------------TOP AVATAR AND WELCOME TEXT--------------*/
+/*------------------------------------------------------------*/
+/*-------------------TOP AVATAR AND WELCOME TEXT--------------*/
+
+.info__image--grid{
+    display:grid;
+    grid-template-columns: repeat(1);
+    text-align: center;
+    padding:20px;
+    text-shadow: 0px 0px 2px;
+    font-size:large;
+}
+@media (max-width: 767px){
+    .info__image--grid{
+        height: auto;
+        } 
+    }
+/*
+.flex{
+    border:1px solid hsl(0, 0%, 93%) ;
+    width:100%;
+    padding:30px;
+    display:flex;
+    flex-flow:row wrap;
+    flex-direction: column;
+    mix-height: 230px;
+    align-items: center;
+    justify-content: center;
+}
+.flex__item{
+    color:#222;
+    width:100%;
+    padding:10px;
+    margin:50px;
+    flex-basis: 100px;
+}
+.image__flex{
+    margin-top:10px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 6px 5px rgb(190, 183, 183);
+    margin-left:35%;
+}
+*/
+
