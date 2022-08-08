@@ -7,7 +7,7 @@
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
 
-	<title>Homepage - M.D</title>
+	<title>Homepage</title>
 
 	<meta http-equiv="X-Ua-Compatible" content="IE=edge">
 	<meta property="og:image" content="image/home.png">
@@ -19,6 +19,9 @@
     <link rel="stylesheet" href="css/footer.css">
  	<link rel="stylesheet" href="css/contaierGrid.css">
 	<link rel="stylesheet" href="css/slider.css">
+	<link rel="stylesheet" href="css/article.css">
+	<meta property="og:image" content="image/share.png">
+	<link rel="icon" href="image/logo-page.png">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&amp;subset=latin-ext" rel="stylesheet">
 
 </head>
@@ -26,11 +29,11 @@
 	
 	  <header>
 	
-		<nav class="navbar navbar-light ">
+		<nav class="navbar navbar-dark ">
 			<a href="homepage.html" class="navbar-brand">
-				<img src="image/home.png" href="homepage.html" 
-				width="30" height="30" class="d-inline-block mr-1 align-bottom" 
-				alt="Homepage" href="homepage.html"><b>Homepage<span class="hpc">.</span></b></a>
+				<img src="image/logo.png" href="homepage.html" 
+				width="64" height="64" class="d-inline-block mr-1 align-bottom" 
+				alt="Homepage" href="homepage.html"><b><span class="hpc">.</span></b></a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainmenu" aria-controls="mainmenu" aria-expanded="false" aria-label="Przełącznik nawigacji">
 			<span class="navbar-toggler-icon"></span>
 		</button>
@@ -39,25 +42,19 @@
 			
 		<ul class="navbar-nav mr-auto">
 			<li class="nav-item">
-				<a class="nav-link" href="#"> Moja historia </a>
+				<a class="nav-link" href="#my-skillset-includes"> My skillset includes </a>
 			</li>
 		<li class="nav-item">
-							<a class="nav-link" href="#"> Certyfikaty  </a>
+							<a class="nav-link" href="#portfolio"> Portfolio </a>
 		</li>
 		<li class="nav-item">
-			<a class="nav-link" href="#"> Hobby </a>
+		<a class="nav-link" href="#github-profile"> Github </a>
 		</li>
 		<li class="nav-item">
-		<a class="nav-link" href="#"> Github </a>
+		<a class="nav-link" href="#landscape"> Landscape  </a>
 		</li>
 		<li class="nav-item">
-		<a class="nav-link" href="#"> Zdjęcia piesków  </a>
-		</li>
-		<li class="nav-item">
-							<a class="nav-link disabled" href="#"> Aktualna praca </a>
-		</li>
-		<li class="nav-item">
-							<a class="nav-link" href="kontakt.html"> Kontakt </a>
+							<a class="nav-link" href="#contact"> Contact </a>
 		</li>
 		</ul>
 		</div>
@@ -69,56 +66,132 @@
 
 		<div class="containerGrid">
     <div class="containerItemA">
-						<img class="imgContainer" width="150" height="150" src="image/avatar.png" alt="avatar - Mateusz Dyderski">
+		<img class="imgContainer" width="270" height="450" src="image/peakbl.png" alt="avatar - Mateusz Dyderski">
 	</div>
 	<div class="containerItemB">
-		<p ><b>Cześć!</b> Nazywam się <b>Mateusz</b>.<br> Aktualnie znajdujesz się na moim <b>Homepage</b>.</p>
+		<p><b class="welcome1">Hello, my name is.</b> <br><b class="namecl">Mateusz</b> <b class="welcome">Dyderski</b></p>
 	</div>
 	</div>
 	<hr class="hr">
-	<div class="info__image--grid">
-		<p>Nie pozostało mi nic innego, jak życzyć Ci miłego zwiedzania mojego małego zakątka!<br> A tak na rozgrzewkę łap porcję dosyć ciekawych fotek!📸</p>
+	<div class="info__image--grid bem bem-transition">
+		<p>What an unexpected visit! Nice to see you. You are currently on my Homepage. Have fun exploring!👻</p>
+	</div>
+	<h2 id="my-skillset-includes" class="h2skl">My skillset includes 🛠️</h2>
+	<section class="section-a">
+
+		<div class="article__skills--item">
+			<ul class="span">
+				<li><span>Semantic & accessible HTML</span></li>
+				<li><span>CSS BEM convention</span></li>
+				<li><span>CSS Flexbox</span></li>
+				<li><span>Markdown</span></li>
+				<li><span>CSS Grid</span></li>
+				<li><span>Responsive Web Design</span></li>
+				<li><span>Teamwork</span></li>
+				<li><span>CSS BEM convention</span></li>
+				<li><span>GitHub Pull Requests & Review</span></li>
+				
+	
+			</ul>
 	</div>
 
+</section>
 
+
+<div id="portfolio" class="ptf"><img class="social-img ptf1" src="image/icon-social-github.png" alt="GitHub"></a>
+<br><h2  class="h2skl">Portfolio</h2><p class="h2skl h2skl1">My recent projects
+
+</p></div>
+
+	<section class="article">
+		<div class="article__item">
+			<h2 class="iJHUH">currency-converter</h2>
+			<p class="iJHUH">Simple currency converter in vanilla JavaScript
+				 with only 5 currencies.</p>
+			<p><span class="dandc">Demo:</span> <a class="iJHUHp" href="https://mateuszdyderski.github.io/currency-converter/">https://mateuszdyderski.github.io/currency-converter/</a></p>
+				<p><span class="dandc">Code:</span> <a class="iJHUHp" href="https://github.com/MateuszDyderski/currency-converter">https://github.com/MateuszDyderski/currency-converter</a></p>
+		</div>
+		<div class="article__item">
+			<h2 class="iJHUH">personal-homepage</h2>
+			<p class="iJHUH">My personal homepage with all my skills that i've learned,<br>
+			 all GitHub repositories with my projects and my socials.</p>
+		</div>
+		<div class="article__item">
+			<h2 class="iJHUH">to-do-list</h2>
+			<p class="iJHUH">To-do-list created with vanilla JavaScript.<br>
+			 List of your tasks with functionalities like mark task done, delete etc</p>
+			<p><span class="dandc">Demo:</span> <a class="iJHUHp" href="https://mateuszdyderski.github.io/to-do-list/"> https://mateuszdyderski.github.io/to-do-list/</a></p>
+			<p><span class="dandc">Code:</span> <a class="iJHUHp" href="https://github.com/MateuszDyderski/to-do-list"> https://github.com/MateuszDyderski/to-do-list</a></p>
+		</div>
+		<div id="github-profile" class="article__item">
+			<h2 class="iJHUH">Mateusz Dyderski</h2>
+			<p class="iJHUH">My GitHub profile</p>
+			<p><span class="dandc">Code:</span> <a class="iJHUHp" href="https://github.com/MateuszDyderski"> https://github.com/MateuszDyderski</a> </p>
+		</div>
+	</section>
+
+	<hr class="hr">
+
+
+
+
+	<div class="end">
+		<p>Finally, I encourage you to browse through the interesting landscapes.
+			Thanks for stopping by!</p>
+	</div>
 	<!---     uuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuu                -->
-	<div class="slider-container">
+	<div id="landscape" class="slider-container">
 		<div class="slider">
 		  <div class="slides">
 			<div id="slides__1" class="slide">
-			  <span class="slide__text"><img class="img__slide" src="image/slide-1.jpg"></span>
-			  <a class="slide__prev" href="#slides__4" title="Prev"></a>
-			  <a class="slide__next" href="#slides__2" title="Next"></a>
-			</div>
-			<div id="slides__2" class="slide">
-				<span class="slide__text"><img class="img__slide" src="image/slide-2.jpg"></span>
-				<a class="slide__prev" href="#slides__1" title="Prev"></a>
-				<a class="slide__next" href="#slides__3" title="Next"></a>
+				<span><img class="img__slide" src="image/slide-active.jpg"></span>
+				<a class="slide__prev" href="#slides__10" title="Prev"></a>
+				<a class="slide__next" href="#slides__2" title="Next"></a>
 			  </div>
-			  <div id="slides__3" class="slide">
-				<span class="slide__text"><img class="img__slide" src="image/slide-3.jpg"></span>
+			<div id="slides__2" class="slide">
+			  <span><img class="img__slide" src="image/slide-1.jpg"></span>
+			  <a class="slide__prev" href="#slides__1" title="Prev"></a>
+			  <a class="slide__next" href="#slides__3" title="Next"></a>
+			</div>
+			<div id="slides__3" class="slide">
+				<span><img class="img__slide" src="image/slide-2.jpg"></span>
 				<a class="slide__prev" href="#slides__2" title="Prev"></a>
 				<a class="slide__next" href="#slides__4" title="Next"></a>
 			  </div>
 			  <div id="slides__4" class="slide">
-				<span class="slide__text"><img class="img__slide" src="image/slide-4.jpg"></span>
-				<a class="slide__prev" href="#slides__3" title="Next"></a>
+				<span><img class="img__slide" src="image/slide-3.jpg"></span>
+				<a class="slide__prev" href="#slides__3" title="Prev"></a>
 				<a class="slide__next" href="#slides__5" title="Next"></a>
 			  </div>
-			<div id="slides__5" class="slide">
-			  <span class="slide__text"> <img class="img__slide" src="image/slide-5.jpg"></span>
-			  <a class="slide__prev" href="#slides__4" title="Prev"></a>
-			  <a class="slide__next" href="#slides__6" title="Next"></a>
-			</div>
+			  <div id="slides__5" class="slide">
+				<span><img class="img__slide" src="image/slide-4.jpg"></span>
+				<a class="slide__prev" href="#slides__4" title="Next"></a>
+				<a class="slide__next" href="#slides__6" title="Next"></a>
+			  </div>
 			<div id="slides__6" class="slide">
-			  <span class="slide__text"> <img class="img__slide" src="image/slide-6.jpg"></span>
+			  <span><img class="img__slide" src="image/slide-5.jpg"></span>
 			  <a class="slide__prev" href="#slides__5" title="Prev"></a>
 			  <a class="slide__next" href="#slides__7" title="Next"></a>
 			</div>
 			<div id="slides__7" class="slide">
-			  <span class="slide__text"> <img class="img__slide" src="image/slide-7.jpg"></span>
+			  <span> <img class="img__slide" src="image/slide-6.jpg"></span>
 			  <a class="slide__prev" href="#slides__6" title="Prev"></a>
-			  <a class="slide__next" href="#slides__1" title="Prev"></a>
+			  <a class="slide__next" href="#slides__8" title="Next"></a>
+			</div>
+			<div id="slides__8" class="slide">
+			  <span> <img class="img__slide" src="image/slide-7.jpg"></span>
+			  <a class="slide__prev" href="#slides__7" title="Prev"></a>
+			  <a class="slide__next" href="#slides__9" title="next"></a>
+			</div>
+			<div id="slides__9" class="slide">
+			  <span> <img class="img__slide" src="image/slide-8.jpg"></span>
+			  <a class="slide__prev" href="#slides__8" title="Prev"></a>
+			  <a class="slide__next" href="#slides__10" title="next"></a>
+			</div>
+			<div id="slides__10" class="slide">
+			  <span> <img class="img__slide" src="image/slide-9.jpg"></span>
+			  <a class="slide__prev" href="#slides__9" title="Prev"></a>
+			  <a class="slide__next" href="#slides__1" title="next"></a>
 			</div>
 		  </div>
 		  <div class="slider__nav">
@@ -135,9 +208,16 @@
 	<!---     uuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuu                -->
 </main>
 
-<hr class="hr--footer">
-					<div class="container-footer">
-    					<footer class="footer">Dziękuję za wizytę!
+ 
+<hr class="hr">
+					<div id="contact"class="container-footer">
+						<p class="talk">LET'S TALK!</p>
+						<a href="mailto:dydek.2002@wp.pl" class="mail">dydek.2002@wp.pl</a>
+    					<footer class="footer">I'm looking forward to grow up
+							 in Front-End languages and skills in proffesional
+							  company.<br> If you are interested and want to hire me,
+							   feel free to contact me via e-mail.<br> I'm 
+							   always open for the new challenges and new job opportunities.!
                         <div class="socialmedia-nav">
                             <a href="https://www.facebook.com/mateusz.dyderski.5/"><img class="social-img" src="image/icon-social-facebook.png" alt="Facebook"></a>
                             <a href="https://www.instagram.com/mdyderski4/"><img class="social-img" src="image/icon-social-instagram.png" alt="Instagram"></a>

@@ -1,0 +1,98 @@
+.article{
+    display: grid;
+    grid-template-columns: repeat(1, 80%);
+    grid-gap: 20px;
+    justify-content: center;
+    max-height:auto;
+    max-width: 700px;
+    margin:auto;
+    padding:20px;
+}
+.article__item{
+    padding:20px;
+    display: grid;
+    background:rgb(17, 17, 17);
+    color: white;
+    justify-items: center;
+    justify-content: center;
+    overflow-wrap: break-word;
+    border-radius: 8px;
+    border-top:1px solid #5f9cbe4b;
+    border-bottom:1px solid #5f9cbe4b;
+    line-height: 30px;;
+
+}
+
+@media (max-width: 600px){
+    .article{
+        grid-template-columns: repeat(1, 90%);
+        height:auto;
+        margin-bottom: auto;
+        } 
+    }
+    @media (max-width: 767px){
+        .article__item{
+            font-size: 14px;
+            line-height: 17px;
+            height:auto;
+            width: auto;
+            } 
+        }
+.article__item:hover{
+    border:2px solid #82b9d6a6;
+    transition: background 1s, transform 2s;
+    transform: scale(1.05);
+}
+@media (max-width: 767px){
+    .article__item:hover{
+        
+        transition:none;
+        transform:none;
+        } 
+    }
+/*-----------------------------------------------*/
+
+.section-a{
+    display: grid;
+    grid-template-columns: repeat(1, 48%);
+    grid-gap: 20px;
+    justify-content: center;
+    height:200px;
+    max-width: 700px;
+    margin:auto;
+    margin-bottom:40px;
+    padding:20px;
+}
+@media (max-width: 665px){
+    .section-a{
+        margin-bottom: -30px;
+        height:auto;
+        grid-template-columns: repeat(1, 80%);
+        } 
+    }
+.article__skills--item{
+    padding:20px;
+    display: grid;
+    text-align: left;
+    justify-items: center;
+    background:rgb(17, 17, 17);
+    color: white;
+    border-radius: 8px;
+    border-top:1px solid #5f9cbe4b;
+    border-bottom:1px solid #5f9cbe4b;
+    line-height: 30px;;
+
+}
+.h2skl{
+    color:rgba(211, 211, 211, 0.712);
+}
+.h2skl1{
+    margin-top:-10px;
+    font-size:small
+}
+ul.span{
+    color:#5f9dbeec;
+    }
+    ul.span span{
+    color:rgba(211, 211, 211, 0.712);
+    }

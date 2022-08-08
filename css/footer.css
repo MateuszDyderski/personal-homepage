@@ -1,17 +1,39 @@
-.footer{
-    padding:10px;
-    background-color:hsl(0, 0%, 93%) ;
-    font-size:x-small;
-    text-align: center;
-    color: rgb(41, 37, 37);
+.footer
+    {
+        margin-top: 24px;
+        padding: 21px;
+        font-weight: 100;
+        font-size: 15px;
+        line-height: 140%;
+        max-width: 50%;
+        margin:auto;
+        letter-spacing: 0.05em;
+        color: rgba(211, 211, 211, 0.712);
+    }
+    @media (max-width: 676px){
+        .footer{
+            margin-top:10px;
+            max-width: 85%;
+            padding:4px;
+        }
 }
-.container-footer{
-    clear: both;
-    position:fixed;
-    bottom: 0;
-    min-width: 100%
+.mail{
+    margin-top: 24px;
+    color: rgb(117, 116, 116);
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 39px;
+    letter-spacing: 0.05em;
+    background-color: transparent;
 }
-.hr--footer{
-    margin-bottom: 50px;
-    padding:12px 0;
+.mail:hover{
+    text-decoration: none;
+}
+.talk{
+        margin-bottom: -1px;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 130%;
+        color: rgb(110, 126, 145);
+    
 }
