@@ -23,6 +23,7 @@ html{
     width:100%;
     color:rgba(0, 0, 0, 0.699)
 }
+
 .hr{
     display:grid;
     border-top:1px solid rgb(53, 53, 53);
