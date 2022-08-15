@@ -29,8 +29,8 @@
 @media (max-width: 767px) { 
     .imgContainer{
         display:grid;
-        max-width:120px;
-        max-height:200px;
+        max-width:110px;
+        max-height:210px;
         margin-bottom:-50px;
         margin-top:-20px;
         } 
