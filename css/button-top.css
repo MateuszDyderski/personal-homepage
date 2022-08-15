@@ -16,6 +16,11 @@
     border-radius: 10px; 
     font-size: 18px; 
   }
+  @media (max-width: 676px){
+    #myBtn{
+        margin-right:-20px;
+    }
+}
   
   #myBtn:hover {
     background-color: #555; 
